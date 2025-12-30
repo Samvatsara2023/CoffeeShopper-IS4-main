@@ -40,7 +40,7 @@ builder.Services.AddIdentityServer()
     })
     .AddDeveloperSigningCredential();
 
-//builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 app.UseStaticFiles();
