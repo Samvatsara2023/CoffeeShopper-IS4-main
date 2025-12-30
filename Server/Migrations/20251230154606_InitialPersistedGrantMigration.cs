@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Server.Migrations
 {
-    public partial class InitialIdentityServerMigration : Migration
+    public partial class InitialPersistedGrantMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

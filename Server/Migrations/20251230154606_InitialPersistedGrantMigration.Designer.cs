@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Server.Migrations
 {
     [DbContext(typeof(PersistedGrantDbContext))]
-    [Migration("20220105064338_InitialIdentityServerMigration")]
-    partial class InitialIdentityServerMigration
+    [Migration("20251230154606_InitialPersistedGrantMigration")]
+    partial class InitialPersistedGrantMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
